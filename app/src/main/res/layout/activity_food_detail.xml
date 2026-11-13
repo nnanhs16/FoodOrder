@@ -41,7 +41,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Food name"
+                android:text="Tên món ăn"
                 android:textColor="#111111"
                 android:textSize="23sp"
                 android:textStyle="bold"/>
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Description"
+            android:text="Mô tả"
             android:textColor="#111111"
             android:textSize="19sp"
             android:textStyle="bold"/>
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Ingredients"
+            android:text="Thành phần"
             android:textColor="#111111"
             android:textSize="19sp"
             android:textStyle="bold"/>
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Quantity"
+            android:text="Số lượng"
             android:textColor="#111111"
             android:textSize="18sp"
             android:textStyle="bold"/>
@@ -142,7 +142,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="20dp"
             android:backgroundTint="#111111"
-            android:text="ADD TO CART"
+            android:text="THÊM VÀO GIỎ HÀNG"
             android:textColor="#FFFFFF"/>
     </LinearLayout>
 </ScrollView>

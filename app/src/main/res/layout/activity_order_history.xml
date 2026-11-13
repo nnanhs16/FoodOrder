@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="My Orders"
+            android:text="Đơn hàng của tôi"
             android:textColor="#171717"
             android:textSize="28sp"
             android:textStyle="bold"/>
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="Track and review your recent orders"
+            android:text="Theo dõi và xem lại các đơn hàng gần đây"
             android:textColor="#888888"
             android:textSize="13sp"/>
 
@@ -54,7 +54,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ORDER HISTORY"
+                android:text="LỊCH SỬ ĐƠN HÀNG"
                 android:textColor="#777777"
                 android:textSize="12sp"
                 android:textStyle="bold"/>
@@ -63,7 +63,7 @@
                 android:id="@+id/txtOrderCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0 orders"
+                android:text="0 đơn hàng"
                 android:textColor="#FF7838"
                 android:textSize="13sp"
                 android:textStyle="bold"/>

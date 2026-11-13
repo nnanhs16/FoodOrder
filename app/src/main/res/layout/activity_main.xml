@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Discover your taste"
+                android:text="Khám phá hương vị"
                 android:textColor="#111111"
                 android:textSize="27sp"
                 android:textStyle="bold"/>
@@ -52,7 +52,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Find your favorite food here"
+                android:text="Tìm kiếm món ăn yêu thích của bạn"
                 android:textColor="#888888"/>
 
             <EditText
@@ -61,7 +61,7 @@
                 android:layout_height="52dp"
                 android:layout_marginTop="18dp"
                 android:background="#FFFFFF"
-                android:hint="Search food..."
+                android:hint="Tìm kiếm món ăn..."
                 android:padding="14dp"
                 android:singleLine="true"/>
 
@@ -69,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="22dp"
-                android:text="Categories"
+                android:text="Danh mục món ăn"
                 android:textColor="#111111"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
@@ -94,7 +94,7 @@
                         android:layout_marginEnd="8dp"
                         android:gravity="center"
                         android:background="#FFFFFF"
-                        android:text="All"
+                        android:text="Tất cả"
                         android:textColor="#111111"
                         android:clickable="true"
                         android:focusable="true"/>
@@ -139,7 +139,7 @@
                         android:layout_marginEnd="8dp"
                         android:gravity="center"
                         android:background="#FFFFFF"
-                        android:text="Chicken"
+                        android:text="Gà rán"
                         android:textColor="#111111"
                         android:clickable="true"
                         android:focusable="true"/>
@@ -154,7 +154,7 @@
                         android:layout_marginEnd="8dp"
                         android:gravity="center"
                         android:background="#FFFFFF"
-                        android:text="Noodles"
+                        android:text="Mì"
                         android:textColor="#111111"
                         android:clickable="true"
                         android:focusable="true"/>
@@ -165,7 +165,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
-                android:text="Popular food"
+                android:text="Món ăn phổ biến"
                 android:textColor="#111111"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
@@ -191,7 +191,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="⌂&#10;Home"
+            android:text="⌂&#10;Trang chủ"
             android:textColor="#111111"/>
 
         <TextView
@@ -200,7 +200,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="▤&#10;Orders"
+            android:text="▤&#10;Đơn hàng"
             android:textColor="#777777"/>
 
         <TextView
@@ -209,7 +209,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="♙&#10;Profile"
+            android:text="♙&#10;Tài khoản"
             android:textColor="#777777"/>
     </LinearLayout>
 </LinearLayout>
