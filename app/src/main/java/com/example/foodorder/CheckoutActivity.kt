@@ -1,4 +1,3 @@
-
 package com.example.foodorder
 
 import android.content.Intent
@@ -85,7 +84,7 @@ class CheckoutActivity : AppCompatActivity() {
                     .setText(cursor.getString(3) ?: "")
 
                 findViewById<EditText>(R.id.edtAddress)
-                    .setText(cursor.getString(5) ?: "")
+                    .setText(cursor.getString(4) ?: "")
             }
         }
     }
