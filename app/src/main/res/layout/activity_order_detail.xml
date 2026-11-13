@@ -9,23 +9,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="30dp">
 
         <TextView
             android:id="@+id/btnBack"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="#FFF0E8"
             android:gravity="center"
             android:text="‹"
-            android:textColor="#111111"
-            android:textSize="35sp" />
+            android:textColor="#FF7838"
+            android:textSize="32sp"/>
 
-        <!-- Thông tin mã đơn và trạng thái -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="#111111"
+            android:layout_marginTop="20dp"
+            android:background="#FF7838"
             android:orientation="vertical"
             android:padding="20dp">
 
@@ -33,7 +36,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ORDER NUMBER"
-                android:textColor="#BBBBBB" />
+                android:textColor="#FFF0E8"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"/>
 
             <TextView
                 android:id="@+id/txtDetailOrderId"
@@ -42,137 +48,149 @@
                 android:layout_marginTop="8dp"
                 android:text="#00001"
                 android:textColor="#FFFFFF"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="27sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/txtDetailStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="12dp"
+                android:background="#FFFFFF"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
                 android:text="Đang xử lý"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FF7838"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
-        <!-- Ngày đặt -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:layout_marginTop="12dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="13dp"
             android:background="#FFFFFF"
             android:gravity="center_vertical"
-            android:padding="14dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Order date"
-                android:textColor="#777777" />
+                android:textColor="#888888"
+                android:textSize="13sp"/>
 
             <TextView
                 android:id="@+id/txtDetailDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#111111" />
+                android:textColor="#222222"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
-        <!-- Thông tin giao hàng -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="23dp"
             android:text="Delivery Information"
-            android:textColor="#111111"
+            android:textColor="#171717"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="11dp"
             android:background="#FFFFFF"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="17dp">
 
             <TextView
                 android:id="@+id/txtDetailName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#111111"
-                android:textStyle="bold" />
+                android:textColor="#222222"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/txtDetailPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textColor="#555555" />
+                android:layout_marginTop="11dp"
+                android:textColor="#666666"
+                android:textSize="13sp"/>
 
             <TextView
                 android:id="@+id/txtDetailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textColor="#555555" />
+                android:layout_marginTop="11dp"
+                android:textColor="#666666"
+                android:textSize="13sp"/>
 
             <TextView
                 android:id="@+id/txtDetailPayment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textColor="#555555" />
+                android:layout_marginTop="11dp"
+                android:textColor="#666666"
+                android:textSize="13sp"/>
 
         </LinearLayout>
 
-        <!-- Danh sách món hàng -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="23dp"
             android:text="Ordered Items"
-            android:textColor="#111111"
+            android:textColor="#171717"
             android:textSize="19sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <LinearLayout
             android:id="@+id/orderDetailItemsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="11dp"
             android:background="#FFFFFF"
             android:orientation="vertical"
-            android:padding="16dp" />
+            android:padding="16dp"/>
 
-        <!-- Tổng thanh toán -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="12dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="13dp"
             android:background="#FFFFFF"
             android:gravity="center_vertical"
-            android:padding="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Total Payment"
-                android:textColor="#111111"
-                android:textStyle="bold" />
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/txtDetailTotal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#111111"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textColor="#FF7838"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
     </LinearLayout>
-
 </ScrollView>
